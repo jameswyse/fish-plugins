@@ -1,8 +1,8 @@
-function n -d "Nodebrew"
-  if test -z "nodebrew"
-    echo "Install nodebrew to use this feature"
+function n -d "FNM"
+  if test -z "fnm"
+    echo "Install fnm to use this feature"
     return
   end
 
-  nodebrew $argv
+  fnm $argv
 end
